@@ -236,7 +236,7 @@ public class StartBehaviour : MonoBehaviour {
                     }
                     xPos = column;
                     yPos = row;
-                    while (xPos < 6 && yPos < 0)
+                    while (xPos < 6 && yPos > 0)
                     {
                         xPos++;
                         yPos--;
@@ -491,7 +491,7 @@ public void LogOneThousand()
                         }
                         xPos = column;
                         yPos = row;
-                        while (xPos < 6 && yPos < 0)
+                        while (xPos < 6 && yPos > 0)
                         {
                             xPos++;
                             yPos--;
@@ -590,6 +590,12 @@ public void LogOneThousand()
         }
     }
 
+    private bool CheckWin(int x, int y)
+    {
 
+        return false;
+    }
 
 }
+
+
