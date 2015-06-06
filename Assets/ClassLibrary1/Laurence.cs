@@ -6,7 +6,8 @@ class Laurence: PlayerLogic
 {
     System.Random rnd = new Random();
 
-    public Laurence()
+    public Laurence(colour c)
+        :base(c)
     {
         // Please enter your real name as the string to be used to declare the winner
         Name = "Laurence";

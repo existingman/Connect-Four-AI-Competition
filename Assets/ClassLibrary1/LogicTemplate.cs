@@ -6,7 +6,8 @@ class LogicTemplate: PlayerLogic
     //Please update this file and I will include it in the poject.
     //Change the class name and file name to something unique.
 
-    public LogicTemplate()
+    public LogicTemplate( colour c )
+        :base(c)
     {
         // Please enter your real name as the string to be used to declare the winner
         Name = "Anomynous";
